@@ -8,8 +8,8 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // Array de objetos con usuarios y contraseñas válidas
     const validCredentials = [
         { username: 'usuario1', password: 'contraseña1' },
-        { username: 'usuario2', password: 'contraseña2' },
-        { username: 'usuario3', password: 'contraseña3' }
+        { username: 'bill', password: '102030' },
+        { username: 'usuario3', password: 'contraseña' }
     ];
 
     // Verificar si las credenciales ingresadas son válidas
