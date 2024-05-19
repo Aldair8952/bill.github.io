@@ -1,0 +1,162 @@
+/* Reset de estilos */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Estilos de sección */
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #f7f7f7;
+}
+
+.bg-dark {
+    background-color: #0e0e0e;
+    color: #fff;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #000000, #000000);
+    color: #fff;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #0e0e0e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu.show {
+        display: block;
+    }
+
+    #menu li {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos para proyectos */
+.proyecto {
+    margin-bottom: 30px;
+  }
+  
+  .proyecto h3 {
+    margin-top: 0;
+  }
+  
+  .proyecto p {
+    margin-bottom: 0;
+  }
+  
+  /* Estilos para enlaces de proyectos */
+  .proyecto a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .proyecto a:hover {
+    background-color: #555;
+  }
+  
+  a {
+    background-color: yellow;
+    padding: 5px 10px; /* Ajusta el padding según sea necesario */
+    text-decoration: none; /* Quita la subrayado predeterminado */
+    color: black; /* Cambia el color del texto si es necesario */
+  }
+  
+  .imagen-destacada {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el contenido al centro */
+    margin-left: 10%; /* Espacio a la izquierda */
+    margin-right: 10%; /* Espacio a la derecha */
+  }
+  
+  .imagen-destacada img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+  
+  
+  
+  .servicio h3 {
+    font-size: 24px; /* Tamaño del título de los servicios */
+  }
+  
+  .proyectos h2 {
+    font-size: 24px; /* Tamaño del título de proyectos */
+  }
+  
+
+  

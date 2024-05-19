@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('img/universo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Contenedor del formulario de login */
+.login-container {
+    background: #000; /* Fondo completamente negro */
+    padding: 30px 40px;
+    padding-bottom: 60px; /* Aumentar el padding inferior */
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Contenedor del logo */
+.logo-container {
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+/* Logo */
+.logo {
+    width: 100px; /* Ajustar el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+/* Título con efecto de brillo */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6), 
+                 0 0 30px rgba(255, 255, 255, 0.4); /* Efecto de brillo */
+}
+
+/* Grupo de inputs */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Botón de envío */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0072ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #004999;
+    transform: scale(1);
+}
+
+/* Medios de consulta para asegurar que el formulario sea adaptable */
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+    }
+
+    .login-container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 230px; /* Ajustar el tamaño del logo para pantallas más pequeñas */
+    }
+}
